@@ -1,0 +1,55 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    line-height: 1.6;
+    background-color: #832d2d;
+    color: #460d0d;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    color: rgb(220, 183, 22);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: rgb(231, 66, 44);
+}
+
+h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    color: rgb(220, 183, 22);
+}
+
+
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
